@@ -7,7 +7,8 @@
   "typings": "./dist/uPlot.d.ts",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "vite dev"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,15 @@
     "url": "https://github.com/leeoniya/uPlot/issues"
   },
   "homepage": "https://github.com/leeoniya/uPlot#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.3",
     "rollup": "^3.28.0"
